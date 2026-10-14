@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+
+# Node / frontend build output
+node_modules/
+dist/
+coverage/
+
+# Local database and generated runtime artifacts
+*.db
+*.sqlite3
+*.log
+.cache/
+.tmp/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules
